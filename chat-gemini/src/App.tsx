@@ -1,14 +1,11 @@
-import InputChat from "./componets/box-input/input"
-
-
+import ChatBox from './componets/chatbox/chat'
 
 function App() {
   
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold">Hola mundo</h1>
-      <InputChat />
+    <div className="">
+      <ChatBox />
     </div>
   )
 }

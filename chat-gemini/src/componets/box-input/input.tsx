@@ -8,8 +8,6 @@ function InputChat () {
     // Estado que viene siendo el equivalente a NgModel en Angular
     const [input, setInput] = useState("");
 
-    
-
     return (  
         <div className="w-full ">
             
